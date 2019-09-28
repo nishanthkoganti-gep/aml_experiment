@@ -1,0 +1,13 @@
+name: classification-training
+
+dependencies:
+- python=3.6.2
+- pip:
+  - matplotlib
+  - azureml-sdk
+  - azureml-widgets
+  - azureml-dataprep[pandas,fuse]>=1.1.14
+- scikit-learn
+
+channels:
+- conda-forge

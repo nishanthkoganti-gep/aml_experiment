@@ -1,0 +1,10 @@
+name: classification-inference
+
+dependencies:
+- python=3.6.2
+- pip:
+  - azureml-defaults
+- scikit-learn
+
+channels:
+- conda-forge
