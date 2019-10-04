@@ -13,7 +13,7 @@ def init():
     global model
     # retrieve the path to the model file using the model name
     model_path = os.path.join(
-        os.getenv('AZUREML_MODEL_DIR'), 'sklearn_mnist_model.pkl')
+        os.getenv('AZUREML_MODEL_DIR'), 'sklearn_classification_model.pkl')
     model = joblib.load(model_path)
 
 def run(raw_data):
